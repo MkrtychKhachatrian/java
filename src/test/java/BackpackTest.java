@@ -1,7 +1,7 @@
-package textbooks;
-
-
-
+import textbooks.PracticePart;
+import textbooks.Sale;
+import textbooks.Textbook;
+import textbooks.TheoryPart;
 import textbooks.type.*;
 import textbooks.elements.*;
 import org.junit.Assert;

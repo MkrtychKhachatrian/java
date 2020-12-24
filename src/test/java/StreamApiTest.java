@@ -1,5 +1,3 @@
-package textbooks;
-
 import textbooks.*;
 import textbooks.type.*;
 import textbooks.elements.*;
