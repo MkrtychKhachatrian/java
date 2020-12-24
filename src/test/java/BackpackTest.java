@@ -1,3 +1,5 @@
+import textbooks.*;
+
 import textbooks.PracticePart;
 import textbooks.Sale;
 import textbooks.Textbook;
@@ -8,6 +10,7 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
 
 
 public class BackpackTest {
@@ -42,9 +45,9 @@ public class BackpackTest {
         Textbook look = new Textbook();
 
         expectedEx.expect(RuntimeException.class);
-        expectedEx.expectMessage("No enum found with url: [BBB] in Practice part");
+        expectedEx.expectMessage("No enum found with url: [FAIL_ON_PURPOSE]");
 
-        String str1 = "engname/mukuch/eng/100/333/red/gloss/A4/manual/blue/paper/A5/FAIL";
+        String str1 = "engname/mukuch/eng/100/333/red/gloss/A4/manual/blue/paper/A5/FAIL_ON_PURPOSE";
         look.input(str1);
     }
 

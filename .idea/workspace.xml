@@ -2,46 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a7609c-1a88-4772-a426-e504487afab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/exception/WrongInputException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/run/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Backpack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/BackpackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Display.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/PracticePart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Sale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/StreamApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Textbook$Textbook1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Textbook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/TheoryPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/elements/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/elements/ElementOfBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/elements/Material.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/elements/Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/type/TypeOfPracticePart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/type/TypeOfTheoryPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/WrongInputException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/Backpack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/BackpackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/PracticePart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/Sale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/StreamApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/Textbook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/TheoryPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/elements/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/elements/ElementOfBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/elements/Material.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/elements/Size.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/type/TypeOfPracticePart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/type/TypeOfTheoryPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BackpackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BackpackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BackpackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BackpackTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +83,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamApiTest.getLecturesPriceSum_IsNull_True">
+  <component name="RunManager" selected="JUnit.BackpackTest.Input_IncorrectInput_ExceptionThrown">
+    <configuration name="BackpackIT (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BackpackIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackpackIT.getJumperPriceSum_IsSumCorrect_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="textbooks" />
+      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackIT" />
+      <option name="METHOD_NAME" value="getJumperPriceSum_IsSumCorrect_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackpackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,42 +112,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackpackTest.ChangePrice_ChangePriceField_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BackpackTest.Input_IncorrectInput_ExceptionThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BackpackTest" />
-      <option name="METHOD_NAME" value="ChangePrice_ChangePriceField_True" />
+      <option name="METHOD_NAME" value="Input_IncorrectInput_ExceptionThrown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackpackTest.EqualsTextbook1_IsObjectSame_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BackpackTest" />
-      <option name="METHOD_NAME" value="EqualsTextbook1_IsObjectSame_True" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamApiTest.getLecturesPriceSum_IsNull_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StreamApiTest" />
-      <option name="METHOD_NAME" value="getLecturesPriceSum_IsNull_True" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamApiTest.getLecturesPriceSum_IsSumCorrect_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StreamApiTest" />
-      <option name="METHOD_NAME" value="getLecturesPriceSum_IsSumCorrect_True" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamApiTest.getLecturesPriceSum_IsNull_True" />
-        <item itemvalue="JUnit.StreamApiTest.getLecturesPriceSum_IsSumCorrect_True" />
-        <item itemvalue="JUnit.BackpackTest.ChangePrice_ChangePriceField_True" />
+        <item itemvalue="JUnit.BackpackTest.Input_IncorrectInput_ExceptionThrown" />
+        <item itemvalue="JUnit.BackpackIT (1)" />
         <item itemvalue="JUnit.BackpackTest" />
-        <item itemvalue="JUnit.BackpackTest.EqualsTextbook1_IsObjectSame_True" />
+        <item itemvalue="JUnit.StreamApiTest" />
+        <item itemvalue="JUnit.BackpackIT.getJumperPriceSum_IsSumCorrect_True" />
       </list>
     </recent_temporary>
   </component>

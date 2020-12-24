@@ -115,7 +115,7 @@ public class StreamApiTest {
 
         //WHEN
         Map<Boolean, List<Textbook>> actual;
-        actual = Backpack.getGroupByCondition(textbooks,p -> p.getTheoryPart().equals(TypeOfTheoryPart.LECTURES.getTheory_s()) &&
+        actual = Backpack.getGroupByCondition(textbooks, p -> p.getTheoryPart().equals(TypeOfTheoryPart.LECTURES.getTheory_s()) &&
                 p.getPrice() > 100);
 
         //THEN
