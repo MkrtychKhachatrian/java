@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a7609c-1a88-4772-a426-e504487afab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbooks/StreamApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Backpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/textbooks/Backpack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/BackpackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/textbooks/BackpackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/textbooks/Textbook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/textbooks/Textbook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/textbooks/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/textbooks/Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbooks/Textbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/textbooks/Textbook.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,8 +67,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BackpackTest.ChangePrice_ChangePriceField_True">
-    <configuration name="BackpackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamApiTest.getMostPopularTypeOfTheoryPart">
+    <configuration name="StreamApiTest.getGroupByCondition_isFilterCorrect_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -75,29 +77,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="textbooks" />
-      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BackpackTest.ChangePrice_ChangePriceField_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="textbooks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="textbooks" />
-      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackTest" />
-      <option name="METHOD_NAME" value="ChangePrice_ChangePriceField_True" />
+      <option name="MAIN_CLASS_NAME" value="textbooks.StreamApiTest" />
+      <option name="METHOD_NAME" value="getGroupByCondition_isFilterCorrect_True" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackpackTest.EqualsLook_IsObjectSame_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiTest.getLecturesPriceSum_IsSumCorrect_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="textbooks" />
-      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackTest" />
-      <option name="METHOD_NAME" value="EqualsLook_IsObjectSame_True" />
+      <option name="MAIN_CLASS_NAME" value="textbooks.StreamApiTest" />
+      <option name="METHOD_NAME" value="getLecturesPriceSum_IsSumCorrect_True" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackpackTest.EqualsTextbook1_IsObjectSame_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiTest.getLecturesPriceSum_isEmpty_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +109,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="textbooks" />
-      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackTest" />
-      <option name="METHOD_NAME" value="EqualsTextbook1_IsObjectSame_True" />
+      <option name="MAIN_CLASS_NAME" value="textbooks.StreamApiTest" />
+      <option name="METHOD_NAME" value="getLecturesPriceSum_isEmpty_True" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackpackTest.Input_IncorrectInput_ExceptionThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiTest.getMaxPrice_IsMaxCorrect_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +125,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="textbooks" />
-      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackTest" />
-      <option name="METHOD_NAME" value="Input_IncorrectInput_ExceptionThrown" />
+      <option name="MAIN_CLASS_NAME" value="textbooks.StreamApiTest" />
+      <option name="METHOD_NAME" value="getMaxPrice_IsMaxCorrect_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApiTest.getMostPopularTypeOfTheoryPart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="textbooks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="textbooks" />
+      <option name="MAIN_CLASS_NAME" value="textbooks.StreamApiTest" />
+      <option name="METHOD_NAME" value="getMostPopularTypeOfTheoryPart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BackpackTest.ChangePrice_ChangePriceField_True" />
-        <item itemvalue="JUnit.BackpackTest.Input_IncorrectInput_ExceptionThrown" />
-        <item itemvalue="JUnit.BackpackTest.EqualsLook_IsObjectSame_True" />
-        <item itemvalue="JUnit.BackpackTest.EqualsTextbook1_IsObjectSame_True" />
-        <item itemvalue="JUnit.BackpackTest" />
+        <item itemvalue="JUnit.StreamApiTest.getMostPopularTypeOfTheoryPart" />
+        <item itemvalue="JUnit.StreamApiTest.getGroupByCondition_isFilterCorrect_True" />
+        <item itemvalue="JUnit.StreamApiTest.getMaxPrice_IsMaxCorrect_True" />
+        <item itemvalue="JUnit.StreamApiTest.getLecturesPriceSum_isEmpty_True" />
+        <item itemvalue="JUnit.StreamApiTest.getLecturesPriceSum_IsSumCorrect_True" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +223,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
