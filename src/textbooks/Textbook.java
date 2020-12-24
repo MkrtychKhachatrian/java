@@ -82,7 +82,7 @@ public  class Textbook implements Display {
         System.out.println("_______________________________________");
     }
 
-    public String getUpperClothes() {
+    public String getTheoryPart() {
         return theoryPart.getTypeOfTheoryPart();
     }
 
