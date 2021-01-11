@@ -7,9 +7,10 @@ import org.junit.Test;
 
 import java.util.*;
 
+
 public class StreamApiTest {
-    private ArrayList<Textbook> textbooks,textbooks1;
-    Backpack backpack1, backpack2;
+    private ArrayList<Textbook> textbooks, textbooks1;
+    private Backpack backpack1, backpack2;
     @Before
     public void init() {
         textbooks = new ArrayList<>();
@@ -110,7 +111,7 @@ public class StreamApiTest {
     public void getGroupByCondition_isFilterCorrect_True() {
         //GIVEN
         Map<Boolean, List<Textbook>> expected = new HashMap<>();
-        expected.put(Boolean.TRUE, Arrays.asList(textbooks.get(0)));
+        //expected.put(Boolean.TRUE, Arrays.asList(textbooks.get(0)));
         expected.put(Boolean.FALSE, Arrays.asList(textbooks.get(1),textbooks.get(2)));
 
         //WHEN
@@ -134,4 +135,9 @@ public class StreamApiTest {
         //THEN
         Assert.assertEquals(actual, expected);
     }
+
 }
+
+
+
+

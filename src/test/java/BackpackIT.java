@@ -1,9 +1,5 @@
 import textbooks.*;
-import textbooks.elements.Material;
-import textbooks.elements.Color;
-import textbooks.elements.Size;
-import textbooks.type.TypeOfTheoryPart;
-import textbooks.type.TypeOfPracticePart;
+
 import exception.WrongInputException;
 import org.junit.Assert;
 import org.junit.Before;
@@ -17,8 +13,8 @@ import static org.mockito.Mockito.*;
 
 
 public class BackpackIT {
-    ArrayList<Textbook> textbooks1,textbooks2;
-    List<Backpack> backpackList;
+    private ArrayList<Textbook> textbooks1,textbooks2;
+    private List<Backpack> backpackList;
     @Before
     public void setUp () {
         backpackList = new ArrayList<>();

@@ -1,0 +1,7 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‹Åı
+o	java:S116
+"URename this field "practice_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÌıÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›µÈµÿÿÿÿÿ
+~
+java:S1130"hRemove the declaration of thrown exception 'exception.WrongInputException' which is a runtime exception.(±¶ç’

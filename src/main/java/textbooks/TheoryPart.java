@@ -1,20 +1,20 @@
 package textbooks;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import textbooks.elements.*;
 import textbooks.type.TypeOfTheoryPart;
+import java.util.Objects;
 
 public class TheoryPart extends ElementOfBook implements Display {
     private TypeOfTheoryPart typeOfTheoryPart;
+    private static final Logger logger = LogManager.getLogger(TheoryPart.class);
 
     public TheoryPart(Color color1, Material material1, Size size1, TypeOfTheoryPart typeOfTheoryPart1) {
         super(color1, material1, size1);
         this.typeOfTheoryPart = typeOfTheoryPart1;
     }
 
-
-    public String getTypeOfTheoryPart() {
-        return typeOfTheoryPart.getTheory_s();
-    }
 
     @Override
     public boolean equals(Object obj) {
@@ -25,9 +25,14 @@ public class TheoryPart extends ElementOfBook implements Display {
     }
 
     @Override
+    public int hashCode() {
+        return Objects.hash(typeOfTheoryPart);
+    }
+
+    @Override
     public void display() {
-        System.out.println("Theory part: ");
+        logger.info("Theory part: ");
         super.display();
-        System.out.println("Type of Theory part: " + typeOfTheoryPart);
+        logger.info("Type of Theory part: " + typeOfTheoryPart);
     }
 }

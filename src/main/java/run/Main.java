@@ -8,7 +8,13 @@ import textbooks.type.TypeOfTheoryPart;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 public class Main {
+
+    private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String [] args) {
         ArrayList<Textbook> textbooks = new ArrayList<>();
@@ -19,22 +25,18 @@ public class Main {
 
         Sale sale1 = new Sale("Knowledge Day");
         sale1.changePrice(tb1, 280);
-        System.out.println("Price changed on knowledge day: " + tb1.getPrice() + "\n\n");
+        logger.info("Price changed on knowledge day: " + tb1.getPrice() + "\n\n");
 
         Textbook.Textbook1 tb2 = new Textbook.Textbook1("Tech",
                 new TheoryPart(Color.BLUE, Material.GLOSS, Size.A5, TypeOfTheoryPart.LECTURES));
         tb2.display();
 
-        /*Textbook.Textbook1 tb22 = new Textbook.Textbook1("Tech",
-                new TheoryPart(Color.BLUE, Material.GLOSS, Size.A5, TypeOfTheoryPart.LECTURES));
-
-        System.out.println(tb2.equals(tb22));*/
 
 
         Textbook tb3 = new Textbook();
         Scanner in = new Scanner(System.in);
-        System.out.println("You can set info for textbook. Enter it in format: ");
-        System.out.println("name/author/subject/pages/price/color/material/size/TypeOfTheoryPart/color/material/size/TypeOfPracticePart");
+        logger.info("You can set info for textbook. Enter it in format: ");
+        logger.info("name/author/subject/pages/price/color/material/size/TypeOfTheoryPart/color/material/size/TypeOfPracticePart");
         String str = in.nextLine();
         tb3.input(str);
         tb3.display();
@@ -49,10 +51,10 @@ public class Main {
         textbooks.add(tb4);
 
         Backpack backpack1 = new Backpack(textbooks);
-        System.out.println("Here is out Backpack: \n------------------------\n");
+        logger.info("Here is out Backpack: \n------------------------\n");
         backpack1.display();
 
-        System.out.println(tb1.equals(tb4));
+        logger.info(tb1.equals(tb4));
     }
 
 }

@@ -2,9 +2,14 @@ package textbooks;
 
 import textbooks.elements.*;
 import textbooks.type.TypeOfPracticePart;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+import java.util.Objects;
 
 public class PracticePart extends ElementOfBook implements Display {
     private TypeOfPracticePart typeOfPracticePart;
+    private static final Logger logger = LogManager.getLogger(PracticePart.class);
 
     public PracticePart(Color color1, Material material1, Size size1, TypeOfPracticePart typeOfPracticePart1) {
         super(color1, material1, size1);
@@ -12,9 +17,6 @@ public class PracticePart extends ElementOfBook implements Display {
     }
 
 
-    public String getTypeOfPracticePart() {
-        return typeOfPracticePart.getPractice_s();
-    }
 
     @Override
     public boolean equals(Object obj) {
@@ -23,12 +25,16 @@ public class PracticePart extends ElementOfBook implements Display {
         PracticePart guest = (PracticePart) obj;
         return typeOfPracticePart == guest.typeOfPracticePart;
     }
+    @Override
+    public int hashCode() {
+        return Objects.hash(typeOfPracticePart);
+    }
 
 
     @Override
     public void display() {
-        System.out.println("Practice part: ");
+        logger.info("Practice part: ");
         super.display();
-        System.out.println("Type of Practice part: " + typeOfPracticePart);
+        logger.info("Type of Practice part: " + typeOfPracticePart);
     }
 }

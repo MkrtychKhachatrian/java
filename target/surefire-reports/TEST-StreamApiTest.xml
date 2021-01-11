@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StreamApiTest" time="0.026" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StreamApiTest" time="0.028" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="12"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mukuch/Desktop/java/target/surefire/surefirebooter3979774404054600164.jar /Users/mukuch/Desktop/java/target/surefire 2020-12-24T08-52-09_778-jvmRun1 surefire522093520278301850tmp surefire_07099363847268492228tmp"/>
+    <property name="sun.java.command" value="/Users/mukuch/Desktop/java/target/surefire/surefirebooter11695511779469953825.jar /Users/mukuch/Desktop/java/target/surefire 2021-01-11T03-15-23_188-jvmRun1 surefire10185832377290527434tmp surefire_04496779618171645912tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/mukuch/Desktop/java/target/test-classes:/Users/mukuch/Desktop/java/target/classes:/Users/mukuch/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/mukuch/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mukuch/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar:/Users/mukuch/.m2/repository/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar:/Users/mukuch/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.18/byte-buddy-agent-1.10.18.jar:/Users/mukuch/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mukuch/Desktop/java/target/surefire/surefirebooter3979774404054600164.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mukuch/Desktop/java/target/surefire/surefirebooter11695511779469953825.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -56,11 +56,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="getMostPopularTypeOfTheoryPart" classname="StreamApiTest" time="0.023"/>
-  <testcase name="getLecturesPriceSum_IsNull_True" classname="StreamApiTest" time="0.019"/>
+  <testcase name="getLecturesPriceSum_IsNull_True" classname="StreamApiTest" time="0.021"/>
+  <testcase name="getMostPopularTypeOfTheoryPart" classname="StreamApiTest" time="0.026"/>
   <testcase name="getMaxPrice_IsMaxCorrect_True" classname="StreamApiTest" time="0.003"/>
-  <testcase name="getLecturesPriceSum_IsSumCorrect_True" classname="StreamApiTest" time="0"/>
+  <testcase name="getLecturesPriceSum_IsSumCorrect_True" classname="StreamApiTest" time="0.001"/>
   <testcase name="getAveragePrice_IsAverageCorrect_True" classname="StreamApiTest" time="0.001"/>
-  <testcase name="getGroupByCondition_isFilterCorrect_True" classname="StreamApiTest" time="0.003"/>
-  <testcase name="getLecturesPriceSum_isEmpty_True" classname="StreamApiTest" time="0.001"/>
+  <testcase name="getGroupByCondition_isFilterCorrect_True" classname="StreamApiTest" time="0.002"/>
+  <testcase name="getLecturesPriceSum_isEmpty_True" classname="StreamApiTest" time="0"/>
 </testsuite>

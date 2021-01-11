@@ -1,0 +1,9 @@
+
+
+java:S1319"tThe type of the "textbooks" object should be an interface such as "List" rather than the implementation "ArrayList".(¡‡Êéşÿÿÿÿ
+…
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ù“³=
+B
+java:S1612",Replace this lambda with a method reference.(¡Í¼Š
+G
+java:S1612>",Replace this lambda with a method reference.(îöá¥ıÿÿÿÿ

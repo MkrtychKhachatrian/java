@@ -1,0 +1,23 @@
+
+f
+java:S1206("PThis class overrides "equals()" and should therefore also override "hashCode()".(ç‹—„
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(∏Ë∆≈
+Q	java:S1253"<This block of commented-out lines of code should be removed.(£Ò©£
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(òØ⁄√˝ˇˇˇˇ
+~
+java:S11302"hRemove the declaration of thrown exception 'exception.WrongInputException' which is a runtime exception.(°ƒÖ¡
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(®∂—Õ˛ˇˇˇˇ
+V	java:S1258"<This block of commented-out lines of code should be removed.(˚À´˙ˇˇˇˇˇ
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(ÎˇàÆ˘ˇˇˇˇ
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(ˆﬂÈÿ
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(Î˜ã€ˇˇˇˇˇ
+f
+java:S1206k"PThis class overrides "equals()" and should therefore also override "hashCode()".(ç‹—„
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(…Ã§¯˛ˇˇˇˇ
+P	java:S125	"<This block of commented-out lines of code should be removed.(ÎßîT
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(ÎˇàÆ˘ˇˇˇˇ
+N
+java:S11979"8Move the array designator from the variable to the type.(ûßÃÅ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(Œ≠ç¢¸ˇˇˇˇ
+=
+java:S1125^"(Remove the literal "true" boolean value.(¢÷˚d

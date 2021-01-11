@@ -1,7 +1,12 @@
 package textbooks;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 public class Sale implements Display{
     private String nameSale;
+
+    private static final Logger logger = LogManager.getLogger(Sale.class);
 
     public Sale(String nameSale){
         this.nameSale = nameSale;
@@ -13,6 +18,6 @@ public class Sale implements Display{
 
     @Override
     public void display() {
-        System.out.println(nameSale);
+        logger.info(nameSale);
     }
 }

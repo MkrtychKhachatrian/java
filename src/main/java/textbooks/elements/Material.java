@@ -5,17 +5,17 @@ import exception.WrongInputException;
 public enum Material {
     GLOSS("gloss"),
     PAPER("paper");
-    private String material_s;
+    private String materials;
 
-    Material(String material_s) { this.material_s = material_s; }
+    Material(String materials) { this.materials = materials; }
 
-    public String getMaterial_s() {
-        return material_s;
+    public String getMaterials() {
+        return materials;
     }
 
     public static Material getTypeByUrl(String url) throws WrongInputException {
         for (Material env : values()) {
-            if (env.getMaterial_s().equals(url)) {
+            if (env.getMaterials().equals(url)) {
                 return env;
             }
         }
@@ -24,7 +24,7 @@ public enum Material {
 
     @Override
     public String toString() {
-        return "Material: " + material_s.toUpperCase() + "\t";
+        return "Material: " + materials.toUpperCase() + "\t";
     }
 }
 
