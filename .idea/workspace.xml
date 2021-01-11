@@ -2,18 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a7609c-1a88-4772-a426-e504487afab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/018a75146eb00596c6369800c886fbe84ac17c8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/406d42e5b4a88c0269e187c1006614cc189e9737" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5789f20a8bf5a4e29f026b4ef9e3734f2927f1da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/695f5ca2c52a9c89c1762d3e0c83129a342da350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76779b0b5af77c65e6f1f1b8e0e149e47300080c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5698e5eaa883487e083a27b074e81049360c99e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e21f89a6f635ab0130d06e88360f1e95f6c094c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2f3724ee0fb95e0941a8cc1efcb643686bd5005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f47cf0345d2ac655d90a8b0ae6fef6da5595bf36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7bd28e2802226ebff22b6792e104851fd489198" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/Backpack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/PracticePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/PracticePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/TheoryPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/TheoryPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/elements/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/elements/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/elements/ElementOfBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/elements/ElementOfBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/elements/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/elements/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textbooks/elements/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textbooks/elements/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BackpackIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BackpackIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BackpackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BackpackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StreamApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BackpackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BackpackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/textbooks/Backpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/textbooks/Backpack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/BackpackIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/BackpackIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-BackpackIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-BackpackIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BackpackTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/BackpackTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/StreamApiTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/StreamApiTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-BackpackTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-BackpackTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-StreamApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-StreamApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StreamApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StreamApiTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +81,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -83,22 +114,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BackpackTest.Input_IncorrectInput_ExceptionThrown">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackpackIT (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BackpackIT" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BackpackIT.getJumperPriceSum_IsSumCorrect_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="textbooks" />
-      <option name="MAIN_CLASS_NAME" value="textbooks.BackpackIT" />
-      <option name="METHOD_NAME" value="getJumperPriceSum_IsSumCorrect_True" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,69 +156,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiTest.getMostPopularTypeOfTheoryPart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StreamApiTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="java" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="java" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="METHOD_NAME" value="getMostPopularTypeOfTheoryPart" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StreamApiTest.getMostPopularTypeOfTheoryPart" />
+        <item itemvalue="JUnit.BackpackTest" />
         <item itemvalue="JUnit.BackpackTest.Input_IncorrectInput_ExceptionThrown" />
         <item itemvalue="JUnit.BackpackIT (1)" />
-        <item itemvalue="JUnit.BackpackTest" />
-        <item itemvalue="JUnit.StreamApiTest" />
-        <item itemvalue="JUnit.BackpackIT.getJumperPriceSum_IsSumCorrect_True" />
       </list>
     </recent_temporary>
   </component>
@@ -213,5 +201,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab1_java$BackpackTest.ic" NAME="BackpackTest Coverage Results" MODIFIED="1608799380225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

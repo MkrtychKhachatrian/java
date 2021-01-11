@@ -1,5 +1,3 @@
-import textbooks.*;
-
 import textbooks.PracticePart;
 import textbooks.Sale;
 import textbooks.Textbook;

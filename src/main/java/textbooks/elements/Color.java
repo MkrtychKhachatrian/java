@@ -7,19 +7,19 @@ public enum Color {
     BLUE("blue"),
     YELLOW("yellow"),
     GREEN("green");
-    private String color_s;
+    final String colors;
 
-    Color(String color_s) {
-        this.color_s = color_s;
+    Color(String colors) {
+        this.colors = colors;
     }
 
-    public String getColor_s() {
-        return color_s;
+    public String getColors() {
+        return colors;
     }
 
     public static Color getTypeByUrl(String url) throws WrongInputException {
         for (Color env : values()) {
-            if (env.getColor_s().equals(url)) {
+            if (env.getColors().equals(url)) {
                 return env;
             }
         }
@@ -28,6 +28,6 @@ public enum Color {
 
     @Override
     public String toString() {
-        return "Color: " + color_s.toUpperCase() + "\t";
+        return "Color: " + colors.toUpperCase() + "\t";
     }
 }

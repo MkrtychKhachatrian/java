@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Backpack implements Display {
-    private ArrayList<Textbook> textbooks;
+    private List<Textbook> textbooks;
 
-    public Backpack(ArrayList<Textbook> textbooks) {
+    public Backpack(List<Textbook> textbooks) {
         this.textbooks = new ArrayList<>();
         this.textbooks = textbooks;
     }
@@ -23,7 +23,7 @@ public class Backpack implements Display {
         }
     }
 
-    public ArrayList<Textbook> getTextbooks() {
+    public List<Textbook> getTextbooks() {
         return textbooks;
     }
 
@@ -57,8 +57,6 @@ public class Backpack implements Display {
         List<String> result = new ArrayList<>();
         wardrobeList.stream()
                 .flatMap(x -> x.getTextbooks().stream())
-                .collect(Collectors.toList())
-                .stream()
                 .collect(Collectors.groupingBy(Textbook::isExpensive))
                 .forEach((key, value) -> value.stream()
                         .collect(Collectors.groupingBy(x -> x.getTheoryPart(), Collectors.counting()))
